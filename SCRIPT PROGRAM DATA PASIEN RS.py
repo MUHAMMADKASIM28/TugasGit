@@ -14,3 +14,9 @@ while(inputan != "4"):
    if(inputan == "1"):
        print("Daftar Nama Pasien")
        print(datas)
+
+   if(inputan == "2"):
+       print("Tambah Pasien")
+       print("Masukkan Nama :")
+       nama = input()
+       print(datas.append(nama))

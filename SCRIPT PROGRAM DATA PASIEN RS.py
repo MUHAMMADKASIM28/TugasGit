@@ -26,3 +26,7 @@ while(inputan != "4"):
        print("Masukkan Nama :")
        nama = input()
        print(datas.remove(nama))
+
+   if(inputan == "4"):
+       print("SEMOGA LEKAS SEMBUH :)")
+

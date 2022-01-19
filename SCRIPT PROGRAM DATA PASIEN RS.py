@@ -10,3 +10,7 @@ while(inputan != "4"):
    print("#################")
    print("Pilih Menu...")
    inputan = input()
+
+   if(inputan == "1"):
+       print("Daftar Nama Pasien")
+       print(datas)

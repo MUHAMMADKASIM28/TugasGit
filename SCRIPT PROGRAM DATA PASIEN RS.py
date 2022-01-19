@@ -20,3 +20,9 @@ while(inputan != "4"):
        print("Masukkan Nama :")
        nama = input()
        print(datas.append(nama))
+
+   if(inputan == "3"):
+       print("Hapus Data Pasien")
+       print("Masukkan Nama :")
+       nama = input()
+       print(datas.remove(nama))
